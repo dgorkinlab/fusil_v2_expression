@@ -5,25 +5,25 @@ All code is written in R, and provided as jupyter notebooks run with an R kernel
 # Input files 
 (availabile exteranlly, not provided in repo)
 
-##FUSIL gene categorizations from this paper
+## FUSIL gene categorizations from this paper
 (store in input_data/FUSIL/)
 
-#GENCODE gene annotations
+## GENCODE gene annotations
 (store in input_data/GENCODE/)
 - Human: [https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_47/gencode.v47.annotation.gtf.gz](url)
 - Mouse: [https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M36/gencode.vM36.annotation.gtf.gz](url)
 
-##Gene expression data from GTEx
+## Gene expression data from GTEx
 (store in input_data/GTEx/)
 - A file containing median TPM values per gene is available from the [GTEx portal](https://www.gtexportal.org/home/downloads/adult-gtex/bulk_tissue_expression):
 GTEx_Analysis_v10_RNASeQCv2.4.2_gene_median_tpm.gct.gz
 
-##Gene expression data from Cardoso-Moreira, et al. Nature. 2019. PMID:31243369
+## Gene expression data from Cardoso-Moreira, et al. Nature. 2019. PMID:31243369
 (store in input_data/Cardoso-Moreira/)
 - Human.RPKM.tsv is available from [https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-6814](url) 
 - Mouse.RPKM.tsv is available from [https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-6798](url)
 
-##Gene expression data from ENCODE (He, et al. Nature 2020. PMID:32728245; Moore, et al. Nature 2020. PMID:32728249)
+## Gene expression data from ENCODE (He, et al. Nature 2020. PMID:32728245; Moore, et al. Nature 2020. PMID:32728249)
 (tsv in input_data/ENCODE/)
 - This data was accessed through the [ENCODE portal](https://www.encodeproject.org/search/?type=Experiment&control_type%21=%2A&status=released&perturbed=false&replicates.library.biosample.donor.organism.scientific_name=Mus+musculus&biosample_ontology.classification=tissue&assay_title=polyA+plus+RNA-seq&limit=200&lab.title=Barbara+Wold%2C+Caltech&lab.title=Bing+Ren%2C+UCSD&lab.title=Michael+Snyder%2C+Stanford
 ). The input file here is a metadata file that contains the accession numbers and other metadata about the mouse RNA-seq experiments. This metadata file is processed as described below in the next section.
