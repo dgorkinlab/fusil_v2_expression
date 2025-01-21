@@ -54,11 +54,11 @@ To quantify the tissue specificity of each gene we calculated Tau values for eac
 - Cardoso-Moreira et al mouse: characterize_expression/characterize_c-m_mouse.ipynb
 - ENCODE: characterize_expression/characterize_encode.ipynb
 
-Note: The Cardoso-Moreira et al human data was used to determine the maximum expressed tissue for each FUSIL gene. Code here:characterize_expression/c-m_add_expr_to_fusil.ipynb, and table here: characterize_expression/c-m_human_max_tissue.tsv.
-
 # Gene Set Enrichment Analysis (GSEA)
 
 We performed GSEA using gene expression values in a given tissue-stage to rank genes and testing for enrichment of FUSIL gene sets at either end of the rank distribution. That is performed in the following code books:
 - Cardoso-Moreira et al human: perform_GSEA/gsea_c-m_human.ipynb
 - Cardoso-Moreira et al mouse: perform_GSEA/gsea_c-m_mouse.ipynb
 - ENCODE: perform_GSEA/gsea_encode.ipynb
+
+Note: We've also included code used to determine the highest epxressed tissue for each gene for use in downstream analysis of disease assocaitions. These codebooks are availabile here: highest_tissue/*.ipynb
